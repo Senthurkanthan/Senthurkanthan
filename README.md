@@ -1,136 +1,229 @@
-# Hi, I'm Senthurkanthan 👋
+# `>_ Senthurkanthan`
 
-### DevOps / Linux Engineer
+### `DevOps / Linux Engineer`
 
-I'm a DevOps / Linux Engineer focused on **Linux server administration, AWS infrastructure, application deployment, and production server management**.
+```bash
+$ whoami
 
-I enjoy setting up reliable server environments, deploying web applications, troubleshooting production issues, and improving infrastructure through automation.
+Senthurkanthan
+DevOps / Linux Engineer
+AWS Infrastructure | Linux Administration | Application Deployment
+```
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
 ---
 
-## 🛠️ Technical Skills
+## `$ about_me`
+
+```yaml
+name: Senthurkanthan
+role: DevOps / Linux Engineer
+focus:
+  - Linux Server Administration
+  - AWS Infrastructure
+  - Application Deployment
+  - Web Server Configuration
+  - Production Troubleshooting
+
+working_with:
+  - AWS
+  - Linux
+  - Nginx
+  - Node.js
+  - PHP
+  - MySQL
+  - MongoDB
+  - PostgreSQL
+  - Redis
+  - Git
+  - GitHub
+```
+
+I work with Linux servers, cloud infrastructure and production application deployments. My experience includes configuring servers, deploying web applications, managing databases, configuring Nginx and SSL, and troubleshooting production environments.
+
+---
+
+## `$ tech_stack`
 
 ### Cloud & Infrastructure
 
-* AWS EC2
-* AWS VPC
-* AWS S3
-* NAT Gateway
-* Linux Server Administration
+```text
+AWS
+├── EC2
+├── VPC
+├── S3
+├── Route 53
+└── NAT Gateway
+```
 
-### Web & Application Servers
+### Server & Deployment
 
-* Nginx
-* Node.js
-* PHP
-* PHP-FPM
-* PM2
-* SSL / HTTPS
-* Certbot
+```text
+Linux
+├── Ubuntu
+├── Nginx
+├── PHP-FPM
+├── PM2
+├── Systemd
+├── SSL / HTTPS
+└── Certbot
+```
 
-### Databases
+### Application & Database
 
-* MySQL
-* MongoDB
-* PostgreSQL
-* Redis
+```text
+Applications
+├── Node.js
+├── PHP
+├── Laravel
+├── WordPress
+├── Drupal
+└── Strapi
 
-### CMS & Frameworks
-
-* WordPress
-* Drupal
-* Strapi
-* Laravel
-
-### Version Control
-
-* Git
-* GitHub
-* GitHub Actions
-
-### Operating Systems
-
-* Ubuntu
-* Linux
-
----
-
-## 🚀 What I Work With
-
-* ⚙️ Linux server setup and administration
-* ☁️ AWS infrastructure deployment
-* 🌐 Nginx configuration and reverse proxy setup
-* 🚀 Node.js and PHP application deployment
-* 🔐 SSL certificate and HTTPS configuration
-* 🗄️ Database setup and administration
-* 📦 Application process management using PM2
-* 🔧 Production server troubleshooting
-* 📊 Server resource monitoring
-* 🔄 Git and deployment workflows
+Databases
+├── MySQL
+├── MongoDB
+├── PostgreSQL
+└── Redis
+```
 
 ---
 
-## 📌 Featured Projects
+## `$ infrastructure`
 
-### ☁️ AWS Drupal Environment
-
-Production-style Drupal deployment using:
-
-`AWS EC2` `Ubuntu` `Nginx` `PHP` `MySQL` `SSL` `Route 53`
-
-### 🚀 Node.js Production Deployment
-
-Node.js application deployment with:
-
-`Ubuntu` `Node.js` `PM2` `Nginx` `SSL` `Git`
-
-### 🐘 PHP / Laravel Production Deployment
-
-PHP and Laravel application deployment using:
-
-`Ubuntu` `PHP-FPM` `Nginx` `MySQL` `Composer` `Systemd`
-
-### 🖥️ Linux Server Administration
-
-Practical Linux administration projects covering:
-
-`Nginx` `Users & Permissions` `Services` `Logs` `Storage` `Networking` `Security`
-
-### 📊 Server Monitoring & Troubleshooting
-
-Hands-on monitoring and troubleshooting of:
-
-`CPU` `RAM` `Disk` `Processes` `Services` `Application Logs`
-
----
-
-## 📚 Currently Learning
-
-I'm continuously improving my DevOps skills in:
-
-* 🐳 Docker
-* ☸️ Kubernetes
-* 🔄 CI/CD
-* 🏗️ Infrastructure as Code
-* 📈 Monitoring & Observability
-* 🤖 DevOps Automation
+```text
+                    INTERNET
+                        │
+                        ▼
+                  ┌──────────┐
+                  │ Route 53 │
+                  └────┬─────┘
+                       │
+                       ▼
+                ┌──────────────┐
+                │    Nginx     │
+                │ Reverse Proxy│
+                └──────┬───────┘
+                       │
+             ┌─────────┴─────────┐
+             ▼                   ▼
+       ┌───────────┐       ┌───────────┐
+       │  Node.js  │       │    PHP    │
+       │    PM2    │       │ PHP-FPM   │
+       └─────┬─────┘       └─────┬─────┘
+             │                   │
+             └─────────┬─────────┘
+                       ▼
+                 ┌───────────┐
+                 │ Databases │
+                 │ MySQL etc.│
+                 └───────────┘
+```
 
 ---
 
-## 🎯 Career Focus
+## `$ projects`
 
-I'm interested in opportunities involving:
+| Project                         | Technologies                  | Focus                        |
+| ------------------------------- | ----------------------------- | ---------------------------- |
+| `aws-drupal-deployment`         | AWS, Linux, Nginx, PHP, MySQL | Cloud Deployment             |
+| `nodejs-production-deployment`  | Node.js, PM2, Nginx, SSL      | Application Deployment       |
+| `laravel-production-deployment` | PHP, Laravel, Nginx, MySQL    | PHP Deployment               |
+| `linux-server-administration`   | Linux, Bash, Nginx            | Server Management            |
+| `server-monitoring`             | Linux, Bash                   | Monitoring & Troubleshooting |
+| `devops-automation`             | Bash, Git                     | Automation                   |
 
-**DevOps • Linux Administration • Cloud Infrastructure • AWS • Site Reliability • Application Deployment**
+> 🚧 Projects are being documented and continuously improved.
 
 ---
 
-## 📫 Connect With Me
+## `$ currently_learning`
 
-* 💼 LinkedIn: [Add your LinkedIn profile]
-* 🐙 GitHub: [github.com/Senthurkanthan](https://github.com/Senthurkanthan)
-* 🌐 Portfolio: Coming soon
+```text
+[████████████████░░░░] Docker
+[████████████░░░░░░░░] CI/CD
+[██████████░░░░░░░░░░] Kubernetes
+[████████░░░░░░░░░░░░] Infrastructure as Code
+[████████░░░░░░░░░░░░] Monitoring & Observability
+```
 
 ---
 
-⭐ Feel free to explore my repositories and projects.
+## `$ devops_workflow`
+
+```text
+Code
+  │
+  ▼
+Git / GitHub
+  │
+  ▼
+Build
+  │
+  ▼
+Deploy
+  │
+  ▼
+Nginx / Application Server
+  │
+  ▼
+Monitor
+  │
+  ▼
+Troubleshoot
+  │
+  └──────────────► Improve
+```
+
+---
+
+## `$ experience`
+
+```text
+DevOps / Linux Engineering
+├── Linux server administration
+├── AWS infrastructure
+├── Application deployment
+├── Nginx configuration
+├── SSL / HTTPS
+├── Database management
+├── Production troubleshooting
+├── Server resource monitoring
+└── Git-based deployment workflows
+```
+
+---
+
+## `$ connect`
+
+<p align="left">
+  <a href="https://github.com/Senthurkanthan">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+```bash
+$ echo "Let's build reliable infrastructure."
+```
+
+---
+
+### `STATUS`
+
+```text
+● Available for DevOps / Linux / Cloud opportunities
+● Building production-focused infrastructure projects
+● Learning Docker → CI/CD → Kubernetes
+```
