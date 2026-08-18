@@ -1,236 +1,241 @@
-# `senthurkanthan@github:~$`
+<div align="center">
+
+# 👋 Hi, I'm **Senthurkanthan**
+
+### `DevOps / Linux Engineer`
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=DevOps+%2F+Linux+Engineer;AWS+%7C+Linux+%7C+Nginx;Application+Deployment+%7C+Server+Administration;Building+%26+Maintaining+Production+Environments" alt="Typing SVG" />
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Senthurkanthan&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+
+</div>
+
+---
+
+## 🧑‍💻 `whoami`
 
 ```bash
 $ whoami
+
 Senthurkanthan
 
 $ role
+
 DevOps / Linux Engineer
 
 $ focus
-Linux • AWS • Server Administration • Application Deployment
 
-$ status
-● ONLINE
+Linux • AWS • Server Administration
+Application Deployment • Production Support
 ```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/DevOps-Engineer-0d1117?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-0d1117?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=white" />
+I'm a **DevOps / Linux Engineer** focused on Linux server administration, AWS EC2, application deployment, Nginx configuration, SSL, databases and production troubleshooting.
+
+I enjoy working close to the infrastructure and solving real-world deployment and server problems.
+
+---
+
+## ⚡ `tech_stack`
+
+### ☁️ Cloud
+
+<p>
+<img src="https://skillicons.dev/icons?i=aws" height="48"/>
+</p>
+
+### 🐧 OS & Servers
+
+<p>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,nginx" height="48"/>
+</p>
+
+### 🚀 Application
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,php,laravel,wordpress" height="48"/>
+</p>
+
+### 🗄️ Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,redis" height="48"/>
+</p>
+
+### 🔧 Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,bash,vscode" height="48"/>
 </p>
 
 ---
 
-## `~/about`
-
-```console
-$ cat about.txt
-
-DevOps / Linux Engineer focused on building, deploying
-and maintaining reliable application environments.
-
-I work with Linux servers, AWS EC2, Nginx, application
-servers, databases, SSL and production deployments.
-
-I enjoy troubleshooting production issues, improving
-server reliability and automating repetitive tasks.
-```
-
----
-
-## `~/stack`
-
-```yaml
-cloud:
-  - AWS EC2
-
-operating_system:
-  - Ubuntu
-  - Linux
-
-web_servers:
-  - Nginx
-
-application:
-  - Node.js
-  - PHP
-  - Laravel
-  - WordPress
-  - Drupal
-  - Strapi
-
-process_management:
-  - PM2
-  - Systemd
-
-databases:
-  - MySQL
-  - MongoDB
-  - PostgreSQL
-  - Redis
-
-version_control:
-  - Git
-  - GitHub
-
-security:
-  - SSL
-  - HTTPS
-  - Certbot
-```
-
----
-
-## `~/commands`
-
-```bash
-$ sudo systemctl status nginx
-● nginx.service - A high performance web server
-   └─ ACTIVE
-
-$ pm2 status
-● Application processes
-   ├─ online
-   ├─ monitored
-   └─ managed
-
-$ git status
-On branch main
-nothing to commit
-working tree clean
-```
-
----
-
-## `~/projects`
+## 🖥️ `server_status`
 
 ```text
-📁 projects/
-│
-├── 📦 aws-server-deployment
+┌──────────────────────────────────────────────┐
+│              PRODUCTION STACK                │
+├──────────────────────────────────────────────┤
+│                                              │
+│  🟢 Linux              ONLINE                │
+│  🟢 Nginx              ONLINE                │
+│  🟢 Node.js            ONLINE                │
+│  🟢 PHP-FPM            ONLINE                │
+│  🟢 PM2                ONLINE                │
+│  🟢 MySQL              ONLINE                │
+│  🟢 MongoDB            ONLINE                │
+│                                              │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## 🚀 `projects`
+
+```text
+📂 ~/projects
+
+├── ☁️ aws-server-deployment
 │   └── AWS EC2 + Linux + Nginx
 │
-├── 📦 nodejs-production-deployment
+├── 🚀 nodejs-production-deployment
 │   └── Node.js + PM2 + Nginx + SSL
 │
-├── 📦 laravel-production-deployment
+├── 🐘 laravel-production-deployment
 │   └── PHP + Laravel + Nginx + MySQL
 │
-├── 📦 linux-server-administration
+├── 🐧 linux-server-administration
 │   └── Linux + Bash + Nginx
 │
-├── 📦 server-monitoring
+├── 📊 server-monitoring
 │   └── Linux + Bash + Monitoring
 │
-└── 📦 devops-automation
+└── ⚙️ devops-automation
     └── Bash + Git + Automation
 ```
 
+> 🚧 More production-focused projects are being added.
+
 ---
 
-## `~/workflow`
+## 🔄 `deployment_pipeline`
 
 ```text
-                 ┌──────────────┐
-                 │     CODE     │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │     GIT      │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │    DEPLOY    │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │   NGINX      │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │ APPLICATION  │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │   MONITOR    │
-                 └──────────────┘
+       👨‍💻 CODE
+          │
+          ▼
+      🔀 GIT / GITHUB
+          │
+          ▼
+      ⚙️ BUILD
+          │
+          ▼
+      🚀 DEPLOY
+          │
+          ▼
+      🌐 NGINX
+          │
+          ▼
+    🖥️ APPLICATION
+          │
+          ▼
+      📊 MONITOR
+          │
+          ▼
+     🔧 IMPROVE
 ```
 
 ---
 
-## `~/learning`
-
-```bash
-$ cat learning.log
-
-[████████████████░░░░] Docker
-[██████████████░░░░░░] CI/CD
-[███████████░░░░░░░░░] Kubernetes
-[█████████░░░░░░░░░░░] Infrastructure as Code
-[█████████░░░░░░░░░░░] Monitoring & Observability
-```
-
-> Continuously learning and building hands-on DevOps projects.
-
----
-
-## `~/experience`
-
-```text
-DevOps / Linux Engineering
-│
-├── Linux server administration
-├── AWS EC2
-├── Application deployment
-├── Nginx configuration
-├── SSL / HTTPS
-├── Database administration
-├── Production troubleshooting
-├── Server monitoring
-└── Git-based workflows
-```
-
----
-
-## `~/github`
-
-```bash
-$ git log --oneline --decorate
-
-building → deploying → monitoring → improving
-
-$ git branch
-
-* main
-  devops
-  automation
-```
-
----
-
-## `~/connect`
+## 📚 `currently_learning`
 
 <p align="center">
-  <a href="https://github.com/Senthurkanthan">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+
+<img src="https://img.shields.io/badge/Docker-Learning-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/CI%2FCD-Learning-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Kubernetes-Learning-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Monitoring-Learning-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Automation-Learning-00C853?style=for-the-badge"/>
+
 </p>
+
+---
+
+## 📊 `github_stats`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Senthurkanthan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senthurkanthan&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+
+</div>
+
+---
+
+## 🔥 `contribution_streak`
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Senthurkanthan&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🐍 `contribution_activity`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Senthurkanthan/Senthurkanthan/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+---
+
+## 🎯 `career_focus`
+
+```yaml
+target:
+  - DevOps Engineer
+  - Linux Engineer
+  - Cloud / AWS Engineer
+  - Site Reliability Engineer
+
+interests:
+  - Linux
+  - AWS
+  - Cloud Infrastructure
+  - Application Deployment
+  - Automation
+  - Monitoring
+```
+
+---
+
+## 📫 `connect`
+
+<div align="center">
+
+<a href="https://github.com/Senthurkanthan">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="YOUR_LINKEDIN_URL">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
 
 ```bash
 $ echo "Building reliable systems, one deployment at a time."
-
-[✓] Open to DevOps / Linux / Cloud opportunities
 ```
+
+### `⚡ Learn • Build • Deploy • Monitor • Improve`
+
+</div>
