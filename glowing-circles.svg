@@ -1,0 +1,234 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Dark tech background -->
+    <linearGradient id="background"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Blue glow -->
+    <filter id="blueGlow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <!-- Purple glow -->
+    <filter id="purpleGlow">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <!-- Cyan glow -->
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200"
+        height="320"
+        fill="url(#background)"/>
+
+
+  <!-- ================================= -->
+  <!-- LARGE GLOWING CIRCLE 1 -->
+  <!-- ================================= -->
+
+  <circle cx="100" cy="100" r="75"
+          fill="#2563eb"
+          opacity="0.18"
+          filter="url(#blueGlow)">
+
+    <animate attributeName="cx"
+             values="100;1050;100"
+             dur="14s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cy"
+             values="100;230;100"
+             dur="10s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================= -->
+  <!-- LARGE GLOWING CIRCLE 2 -->
+  <!-- ================================= -->
+
+  <circle cx="1050" cy="230" r="90"
+          fill="#9333ea"
+          opacity="0.17"
+          filter="url(#purpleGlow)">
+
+    <animate attributeName="cx"
+             values="1050;150;1050"
+             dur="16s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cy"
+             values="230;80;230"
+             dur="12s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================= -->
+  <!-- LARGE CYAN CIRCLE -->
+  <!-- ================================= -->
+
+  <circle cx="600" cy="50" r="65"
+          fill="#06b6d4"
+          opacity="0.14"
+          filter="url(#cyanGlow)">
+
+    <animate attributeName="cx"
+             values="600;900;300;600"
+             dur="12s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cy"
+             values="50;260;120;50"
+             dur="11s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================= -->
+  <!-- VISIBLE GLOWING CIRCLES -->
+  <!-- ================================= -->
+
+  <g>
+
+    <!-- Circle 1 -->
+    <circle cx="150" cy="100" r="7"
+            fill="#38bdf8">
+
+      <animate attributeName="cx"
+               values="150;1000;150"
+               dur="14s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="cy"
+               values="100;220;100"
+               dur="10s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Circle 2 -->
+    <circle cx="900" cy="70" r="5"
+            fill="#a855f7">
+
+      <animate attributeName="cx"
+               values="900;200;900"
+               dur="12s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="cy"
+               values="70;250;70"
+               dur="9s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Circle 3 -->
+    <circle cx="600" cy="250" r="6"
+            fill="#22d3ee">
+
+      <animate attributeName="cx"
+               values="600;1000;250;600"
+               dur="15s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="cy"
+               values="250;80;180;250"
+               dur="13s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Circle 4 -->
+    <circle cx="350" cy="60" r="4"
+            fill="#60a5fa">
+
+      <animate attributeName="cx"
+               values="350;750;350"
+               dur="11s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="cy"
+               values="60;260;60"
+               dur="8s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Circle 5 -->
+    <circle cx="1100" cy="150" r="6"
+            fill="#c084fc">
+
+      <animate attributeName="cx"
+               values="1100;100;1100"
+               dur="18s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="cy"
+               values="150;70;150"
+               dur="12s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+
+  <!-- ================================= -->
+  <!-- SUBTLE TECH GRID -->
+  <!-- ================================= -->
+
+  <g stroke="#38bdf8"
+     stroke-width="0.5"
+     opacity="0.08">
+
+    <path d="M0 80 H1200"/>
+    <path d="M0 160 H1200"/>
+    <path d="M0 240 H1200"/>
+
+    <path d="M100 0 V320"/>
+    <path d="M200 0 V320"/>
+    <path d="M300 0 V320"/>
+    <path d="M400 0 V320"/>
+    <path d="M500 0 V320"/>
+    <path d="M600 0 V320"/>
+    <path d="M700 0 V320"/>
+    <path d="M800 0 V320"/>
+    <path d="M900 0 V320"/>
+    <path d="M1000 0 V320"/>
+    <path d="M1100 0 V320"/>
+
+  </g>
+
+
+  <!-- Border -->
+  <rect x="1"
+        y="1"
+        width="1198"
+        height="318"
+        rx="12"
+        fill="none"
+        stroke="#38bdf8"
+        stroke-opacity="0.18"/>
+
+</svg>
