@@ -1,229 +1,236 @@
-# `>_ Senthurkanthan`
-
-### `DevOps / Linux Engineer`
+# `senthurkanthan@github:~$`
 
 ```bash
 $ whoami
-
 Senthurkanthan
+
+$ role
 DevOps / Linux Engineer
-AWS Infrastructure | Linux Administration | Application Deployment
+
+$ focus
+Linux • AWS • Server Administration • Application Deployment
+
+$ status
+● ONLINE
 ```
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<p align="center">
+  <img src="https://img.shields.io/badge/DevOps-Engineer-0d1117?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-0d1117?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
 
-## `$ about_me`
+## `~/about`
+
+```console
+$ cat about.txt
+
+DevOps / Linux Engineer focused on building, deploying
+and maintaining reliable application environments.
+
+I work with Linux servers, AWS EC2, Nginx, application
+servers, databases, SSL and production deployments.
+
+I enjoy troubleshooting production issues, improving
+server reliability and automating repetitive tasks.
+```
+
+---
+
+## `~/stack`
 
 ```yaml
-name: Senthurkanthan
-role: DevOps / Linux Engineer
-focus:
-  - Linux Server Administration
-  - AWS Infrastructure
-  - Application Deployment
-  - Web Server Configuration
-  - Production Troubleshooting
+cloud:
+  - AWS EC2
 
-working_with:
-  - AWS
+operating_system:
+  - Ubuntu
   - Linux
+
+web_servers:
   - Nginx
+
+application:
   - Node.js
   - PHP
+  - Laravel
+  - WordPress
+  - Drupal
+  - Strapi
+
+process_management:
+  - PM2
+  - Systemd
+
+databases:
   - MySQL
   - MongoDB
   - PostgreSQL
   - Redis
+
+version_control:
   - Git
   - GitHub
-```
 
-I work with Linux servers, cloud infrastructure and production application deployments. My experience includes configuring servers, deploying web applications, managing databases, configuring Nginx and SSL, and troubleshooting production environments.
-
----
-
-## `$ tech_stack`
-
-### Cloud & Infrastructure
-
-```text
-AWS
-├── EC2
-├── VPC
-├── S3
-├── Route 53
-└── NAT Gateway
-```
-
-### Server & Deployment
-
-```text
-Linux
-├── Ubuntu
-├── Nginx
-├── PHP-FPM
-├── PM2
-├── Systemd
-├── SSL / HTTPS
-└── Certbot
-```
-
-### Application & Database
-
-```text
-Applications
-├── Node.js
-├── PHP
-├── Laravel
-├── WordPress
-├── Drupal
-└── Strapi
-
-Databases
-├── MySQL
-├── MongoDB
-├── PostgreSQL
-└── Redis
+security:
+  - SSL
+  - HTTPS
+  - Certbot
 ```
 
 ---
 
-## `$ infrastructure`
+## `~/commands`
+
+```bash
+$ sudo systemctl status nginx
+● nginx.service - A high performance web server
+   └─ ACTIVE
+
+$ pm2 status
+● Application processes
+   ├─ online
+   ├─ monitored
+   └─ managed
+
+$ git status
+On branch main
+nothing to commit
+working tree clean
+```
+
+---
+
+## `~/projects`
 
 ```text
-                    INTERNET
+📁 projects/
+│
+├── 📦 aws-server-deployment
+│   └── AWS EC2 + Linux + Nginx
+│
+├── 📦 nodejs-production-deployment
+│   └── Node.js + PM2 + Nginx + SSL
+│
+├── 📦 laravel-production-deployment
+│   └── PHP + Laravel + Nginx + MySQL
+│
+├── 📦 linux-server-administration
+│   └── Linux + Bash + Nginx
+│
+├── 📦 server-monitoring
+│   └── Linux + Bash + Monitoring
+│
+└── 📦 devops-automation
+    └── Bash + Git + Automation
+```
+
+---
+
+## `~/workflow`
+
+```text
+                 ┌──────────────┐
+                 │     CODE     │
+                 └──────┬───────┘
                         │
                         ▼
-                  ┌──────────┐
-                  │ Route 53 │
-                  └────┬─────┘
-                       │
-                       ▼
-                ┌──────────────┐
-                │    Nginx     │
-                │ Reverse Proxy│
-                └──────┬───────┘
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-       ┌───────────┐       ┌───────────┐
-       │  Node.js  │       │    PHP    │
-       │    PM2    │       │ PHP-FPM   │
-       └─────┬─────┘       └─────┬─────┘
-             │                   │
-             └─────────┬─────────┘
-                       ▼
-                 ┌───────────┐
-                 │ Databases │
-                 │ MySQL etc.│
-                 └───────────┘
+                 ┌──────────────┐
+                 │     GIT      │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │    DEPLOY    │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │   NGINX      │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │ APPLICATION  │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │   MONITOR    │
+                 └──────────────┘
 ```
 
 ---
 
-## `$ projects`
+## `~/learning`
 
-| Project                         | Technologies                  | Focus                        |
-| ------------------------------- | ----------------------------- | ---------------------------- |
-| `aws-drupal-deployment`         | AWS, Linux, Nginx, PHP, MySQL | Cloud Deployment             |
-| `nodejs-production-deployment`  | Node.js, PM2, Nginx, SSL      | Application Deployment       |
-| `laravel-production-deployment` | PHP, Laravel, Nginx, MySQL    | PHP Deployment               |
-| `linux-server-administration`   | Linux, Bash, Nginx            | Server Management            |
-| `server-monitoring`             | Linux, Bash                   | Monitoring & Troubleshooting |
-| `devops-automation`             | Bash, Git                     | Automation                   |
+```bash
+$ cat learning.log
 
-> 🚧 Projects are being documented and continuously improved.
-
----
-
-## `$ currently_learning`
-
-```text
 [████████████████░░░░] Docker
-[████████████░░░░░░░░] CI/CD
-[██████████░░░░░░░░░░] Kubernetes
-[████████░░░░░░░░░░░░] Infrastructure as Code
-[████████░░░░░░░░░░░░] Monitoring & Observability
+[██████████████░░░░░░] CI/CD
+[███████████░░░░░░░░░] Kubernetes
+[█████████░░░░░░░░░░░] Infrastructure as Code
+[█████████░░░░░░░░░░░] Monitoring & Observability
 ```
+
+> Continuously learning and building hands-on DevOps projects.
 
 ---
 
-## `$ devops_workflow`
-
-```text
-Code
-  │
-  ▼
-Git / GitHub
-  │
-  ▼
-Build
-  │
-  ▼
-Deploy
-  │
-  ▼
-Nginx / Application Server
-  │
-  ▼
-Monitor
-  │
-  ▼
-Troubleshoot
-  │
-  └──────────────► Improve
-```
-
----
-
-## `$ experience`
+## `~/experience`
 
 ```text
 DevOps / Linux Engineering
+│
 ├── Linux server administration
-├── AWS infrastructure
+├── AWS EC2
 ├── Application deployment
 ├── Nginx configuration
 ├── SSL / HTTPS
-├── Database management
+├── Database administration
 ├── Production troubleshooting
-├── Server resource monitoring
-└── Git-based deployment workflows
+├── Server monitoring
+└── Git-based workflows
 ```
 
 ---
 
-## `$ connect`
+## `~/github`
 
-<p align="left">
+```bash
+$ git log --oneline --decorate
+
+building → deploying → monitoring → improving
+
+$ git branch
+
+* main
+  devops
+  automation
+```
+
+---
+
+## `~/connect`
+
+<p align="center">
   <a href="https://github.com/Senthurkanthan">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
 
 ```bash
-$ echo "Let's build reliable infrastructure."
-```
+$ echo "Building reliable systems, one deployment at a time."
 
----
-
-### `STATUS`
-
-```text
-● Available for DevOps / Linux / Cloud opportunities
-● Building production-focused infrastructure projects
-● Learning Docker → CI/CD → Kubernetes
+[✓] Open to DevOps / Linux / Cloud opportunities
 ```
