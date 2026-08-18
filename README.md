@@ -1,10 +1,14 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=%3E_+Senthurkanthan;%3E_+DevOps+%2F+Linux+Engineer;%3E_+Build.+Deploy.+Monitor.+Improve." />
+# 👋 Hi, I'm **Senthurkanthan**
+
+### `DevOps / Linux Engineer`
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=DevOps+%2F+Linux+Engineer;AWS+%7C+Linux+%7C+Nginx;Application+Deployment+%7C+Server+Administration;Building+%26+Maintaining+Production+Environments" alt="Typing SVG" />
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:21262D&height=2&section=header" />
+<img src="https://komarev.com/ghpvc/?username=Senthurkanthan&style=for-the-badge&color=blueviolet" alt="Profile Views" />
 
 </div>
 
