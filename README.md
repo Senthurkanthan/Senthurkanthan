@@ -1,17 +1,26 @@
 <div align="center">
 
-# 👋 Hi, I'm **Senthurkanthan**
-
-### `DevOps / Linux Engineer`
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=DevOps+%2F+Linux+Engineer;AWS+%7C+Linux+%7C+Nginx;Application+Deployment+%7C+Server+Administration;Building+%26+Maintaining+Production+Environments" alt="Typing SVG" />
+<img src="./glowing-circles.svg" width="100%" alt="Animated Tech Background"/>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Senthurkanthan&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Senthurkanthan+%F0%9F%91%8B;DevOps+Engineer+%E2%9A%A1;Linux+%7C+AWS+%7C+Server+Administration;Building+%26+Deploying+Reliable+Systems" alt="Typing SVG"/>
+
+<br>
+
+<p>
+<img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
 </div>
-
 ---
 
 ## 🧑‍💻 `whoami`
