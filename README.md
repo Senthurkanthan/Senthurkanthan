@@ -181,38 +181,6 @@ I enjoy working close to the infrastructure and solving real-world deployment an
 
 ---
 
-## 📊 `github_stats`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Senthurkanthan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senthurkanthan&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-
-</div>
-
----
-
-## 🔥 `contribution_streak`
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Senthurkanthan&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 🐍 `contribution_activity`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Senthurkanthan/Senthurkanthan/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
-
----
-
 ## 🎯 `career_focus`
 
 ```yaml
